@@ -1,19 +1,51 @@
 aid: souco
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/souco.png
 name: Souco
-description: Souco is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Souco (株式会社souco / souco Co., Ltd.) operates a warehouse-sharing marketplace and
+  logistics resource optimization platform in Japan, connecting cargo owners with available
+  space across a nationwide network of 3,000+ warehouses spanning all 47 prefectures.
+  Businesses can secure short- or long-term storage on demand for a wide range of cargo —
+  food ingredients, apparel, machinery, and documents — under ambient, refrigerated, frozen,
+  or temperature-controlled conditions, with pickup and delivery coordination handled by the
+  platform. Alongside the sharing marketplace, souco offers a rental-warehouse search portal,
+  transportation services, and the Optis engine for optimizing logistics networks, plus
+  consulting and DX support for the logistics industry. The company is backed by 500 Global
+  and Sumitomo Corporation's corporate venture arm. souco is a customer-facing logistics
+  platform and does not currently publish a public developer API, SDKs, or developer
+  documentation; its digital surface is a login-gated web application at app.souco.space.
 url: https://raw.githubusercontent.com/api-evangelist/souco/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - 500-global
+- sumitomo-corporation
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-api-surface: none
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Logistics
+- Warehousing
+- Supply Chain
+- Marketplace
+- Storage
+- Transportation
+- Japan
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +55,24 @@ maintainers:
 common:
 - type: Website
   url: https://souco.space
+- type: Login
+  url: https://app.souco.space/login/cargo-owner
+- type: SignUp
+  url: https://souco.space/warehouse-provider/
+- type: Pricing
+  url: https://souco.space/service/simulation/
+- type: Blog
+  url: https://souco.space/columns/
+- type: Support
+  url: https://souco.space/faq/warehouse-user/
+- type: TermsOfService
+  url: https://souco.space/terms_of_souco_system/
+- type: PrivacyPolicy
+  url: https://souco.space/privacy_policy/
+- type: DomainSecurity
+  url: security/souco-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1

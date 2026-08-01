@@ -1,0 +1,21 @@
+{
+  "repo": "souco",
+  "feeds": [
+    {
+      "source": "https://souco.space/service/simulation/index.xml",
+      "feed_url": "https://souco.space/service/simulation/index.xml",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
+      "source": "https://souco.space/service/simulation/",
+      "feed_url": "https://souco.space/service/simulation/index.xml",
+      "title": "",
+      "saved": 0,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-08-01T15:49:00Z"
+}
